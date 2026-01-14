@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-  fetch('YOUR_APPS_SCRIPT_URL')
+  fetch('https://script.google.com/macros/s/AKfycby_gIlAta-x0F8q6ZJUN9B6qF6m4fOjIAZJ_gHtu-pGbV2-v_DZT63nqMVLTJzfAe04sQ/exec')
     .then(res => res.json())
     .then(data => {
       // Hero (from HomeHero tab - assuming first row)
@@ -30,3 +30,4 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(err => console.error('Error:', err));
 });
+
